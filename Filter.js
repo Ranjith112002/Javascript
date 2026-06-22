@@ -1,5 +1,16 @@
-let arr=[1,10,30,5,4,3,9]
-let filteredArray=arr.filter((num)=>{
-    return num%2==0
-})
-console.log(filteredArray);
+
+function getEvenNumbers(numbers) {
+
+    return numbers.filter((number) => {
+
+
+        return number % 2 === 0;
+
+    });
+}
+
+const numbers = [1,2,3,4,5,6];
+
+const evenNumbers = getEvenNumbers(numbers);
+
+console.log(evenNumbers);
