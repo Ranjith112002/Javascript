@@ -6,7 +6,7 @@ for(let i=0;i<a.length;i++){
         max=a[i];
     }
 }
-return min;
+return max;
 }
 let maxElement=findMax(arr);
 console.log(maxElement);
