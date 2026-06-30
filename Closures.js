@@ -8,7 +8,6 @@ function outer(){
     }
      console.log("outter function finish excecution");
      return inner;
-
 }
 exmp=outer();
 exmp();
