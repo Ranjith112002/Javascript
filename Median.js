@@ -18,6 +18,7 @@ function findMeadian(arr1,arr2){
     }
     while(j<arr2.length){
         merg.push(arr2[j])
+        j++;
     }
     let len=merg.length;
     if(len%2==0){
