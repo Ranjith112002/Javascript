@@ -21,10 +21,10 @@ function findMeadian(arr1,arr2){
     }
     let len=merg.length;
     if(len%2==0){
-        return (merg[n/2-1] + merg[n/2])/2;
+        return (merg[len/2-1] + merg[len/2])/2;
     }
     else{
-        return   merged[Math.floor(n / 2)];
+        return   merg[Math.floor(len / 2)];
     }
 }
 console.log(findMedianSortedArrays([1, 3], [2]));
