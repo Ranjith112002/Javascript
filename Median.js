@@ -27,5 +27,5 @@ function findMeadian(arr1,arr2){
         return   merg[Math.floor(len / 2)];
     }
 }
-console.log(findMedianSortedArrays([1, 3], [2]));
-console.log(findMedianSortedArrays([1, 2], [3, 4]));
+console.log(findMeadian([1, 3], [2]));
+console.log(findMeadian([1, 2], [3, 4]));
